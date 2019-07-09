@@ -42,8 +42,5 @@ be = Button(wv, text="Tranformar", command=trans).pack(side="left")
 bb = Button(wv, text="Borrar", command=borrar).pack(side="left")
 bs = Button(wv, text="Salir", command=salir).pack(side="left")
 
-# campos de texto
-#txtC1.grid(row = 1, column=15)
-
 # Ciclo de espera de eventos
 wv.mainloop()
